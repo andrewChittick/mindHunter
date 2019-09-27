@@ -1,0 +1,50 @@
+<!--
+TITLE: Mindhunter the game
+AUTHOR: Andrew P Chittick (APC)
+CREATE DATE: 8/30/19
+MODIFICATION HISTORY: original build
+-->
+
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Mindhunter the game</title>
+<link rel="stylesheet" type="text/css" href="mindhunter.css">
+
+<!-- This links to the jQuery library so your js code will work
+Always include this *before* your own js code (extremely important) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="mindhunter.js"></script>
+
+</head>
+
+<body onload = "setMenu()">
+	<header>
+		<img src="images/mindhunter.png" alt="Mindhunter"/>
+		<button id="resetMenu" onclick = "reset()">reset</button>
+	</header>
+
+	<div class="level">
+		<p>Choose a level</p>
+
+		<img src="images/billCartoon.png" alt="Bill"/>
+		<img src="images/wendyCartoon.png" alt="Wendy"/>
+		<img src="images/holdenCartoon.png" alt="Holden"/>
+
+		<div>
+			<button id="bill" onclick="window.location.href= 'bill/bill.html';">Bill Tench</button>
+			<button id="wendy" onclick="window.location.href= 'wendy/wendy.html';">Dr. Wendy Carr</button>
+			<button id="holden" onclick="window.location.href= 'holden/holden.html';">Holden Ford</button>
+		</div>
+
+		<img id="edPic" src="images/edBlack.png"/>
+		<img id="hannibalPic" src="images/hannibalBlack.png"/>
+		<img id="dexterPic" src="images/dexterBlack.png"/>
+
+		<div>
+			<button id="ed" onclick="window.location.href= 'common/locked.html';"></button>
+			<button id="hannibal" onclick="window.location.href= 'common/locked.html';"></button>
+			<button id="dexter" onclick="window.location.href= 'common/locked.html';"></button>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,141 @@
+/************************************
+ * TITLE: Home page css file
+ * AUTHOR: Andrew P Chittick (APC)
+ * CREATE DATE: 1/18/19
+ * PURPOSE: create a personalized css file for home page
+ * MODIFICATION HISTORY: original build
+ * ************************************/
+
+header{
+	margin:auto;
+	border-radius:15px;
+	width:435px;
+	height:106px;
+}
+#author{
+	text-align:right;
+	font-size:35px;
+}
+body{
+	color:darkRed;
+	background-color:gray;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size:30px;
+	text-align:center;
+	background-image:url(images/mindhunterWallpaper.jpg);
+}
+p{
+	padding:10px;
+}
+.frame{
+	transform: scale(.5);
+	width:1200px;
+	margin:auto;
+	text-align:center;
+	border-radius:15px;
+	background-color:darkGray;
+	box-shadow: 0 2px 15px DarkRed;
+}
+.level{
+	width:600px;
+	margin:auto;
+	text-align:center;
+	border-radius:15px;
+	background-color:rgb(160, 160, 160, .8);
+	box-shadow: 0 2px 15px DarkRed;
+}
+.choices{
+	margin:auto;
+	width:600px;
+	min-height:100px;
+	background-color:darkRed;
+	border-radius:15px;
+	box-shadow:0 2px 15px darkRed;
+}
+button{
+	margin:25px;
+	height:50px;
+	font-size:20px;
+	font-weight:bold;
+	background-color:gray;
+	color:darkRed;
+	border-radius:10px;
+	box-shadow:0 2px 15px darkRed;
+}
+
+
+/*ASSEMBLE colors*/
+
+.holdenA{
+	background-color:cornflowerBlue;
+}
+.wendyA{
+	background-color:mediumPurple;
+}
+.billA{
+	background-color:khaki;
+}
+
+
+/*menu buttons*/
+
+#bill{
+	margin:12px 12px 12px 30px;
+	height:30px;
+	font-size:15px;
+	color:darkRed;
+	background-color:gray;
+}
+#wendy{
+	margin:12px 18px 12px 10px;
+	height:30px;
+	font-size:15px;
+	color:darkRed;
+	background-color:gray;
+}
+#holden{
+	margin:12px 12px 12px 5px;
+	height:30px;
+	font-size:15px;
+	color:darkRed;
+	background-color:gray;
+}
+#ed{
+	margin:12px 12px 12px 60px;
+	height:30px;
+	font-size:15px;
+	width:105px;
+	color:black;
+	background-color:black;
+}
+#hannibal{
+	margin:12px 18px 12px 0px;
+	height:30px;
+	font-size:15px;
+	width:135px;
+	color:black;
+	background-color:black;
+}
+#dexter{
+	margin:12px 12px 12px 0px;
+	height:30px;
+	font-size:15px;
+	width:165px;
+	color:black;
+	background-color:black;
+}
+#resetMenu{
+	margin:0px;
+	height:20px;
+	font-size:12px;
+	color:darkRed;
+	background-color:gray;
+}
+
+/*hack stuff*/
+#board{
+	margin:auto;
+	width: 280px;
+	height: 280px;
+	background-color: #FFFFFF;
+}

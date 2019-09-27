@@ -1,0 +1,36 @@
+<!--
+TITLE: Holden Ford win
+AUTHOR: Andrew P Chittick (APC)
+CREATE DATE: 8/31/19
+MODIFICATION HISTORY: original build
+-->
+
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Mindhunter the game</title>
+<link rel="stylesheet" type="text/css" href="../mindhunter.css">
+
+<!-- This links to the jQuery library so your js code will work
+Always include this *before* your own js code (extremely important) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="../mindhunter.js"></script>
+
+</head>
+<body onload = "win('holden')">
+	<audio autoplay>
+	       <source src="../applause.ogg" type="audio/ogg">
+	       <source	src="../applause.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	<div class="level">
+		<p>Holden Ford</p>
+		<img src="../images/holdenTrophy.png" alt="Holden"/>
+		<img src="../images/edFile.png" alt="Ed"/>
+		<p>You got Ed Kemper to completely open up to you and made a breakthru.</p>
+		<p>You have successfully completed this level.</p>
+	</div>
+	<div class="choices">
+		<button type="button" onclick="window.location.href= '../mindhunter.html';">Continue</button>
+	</div>
+</body>
+</html>

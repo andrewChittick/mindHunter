@@ -1,0 +1,33 @@
+<!--
+TITLE: Bill Tench Breakfast
+AUTHOR: Andrew P Chittick (APC)
+CREATE DATE: 8/30/19
+MODIFICATION HISTORY: original build
+-->
+
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Mindhunter the game</title>
+<link rel="stylesheet" type="text/css" href="../mindhunter.css">
+
+<!-- This links to the jQuery library so your js code will work
+Always include this *before* your own js code (extremely important) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="../mindhunter.js"></script>
+
+</head>
+
+<body>
+
+	<div class="level">
+		<p>Bill Tench</p>
+		<img src="../images/tenchFamily.png" alt="Tench Family"/>
+		<img src="../images/billMug.png" alt="Bill"/>
+		<p>Your wife has prepared you and your son breakfast.</p>
+	</div>
+
+	<div class="choices">
+		<button type="button" onclick="breakfast('yes')">Eat breakfast with family</button>
+		<button type="button" onclick="breakfast('no')">Grab coffee to go</button>
+	</div>
+</body>
